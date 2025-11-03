@@ -73,7 +73,8 @@
         "meta_descr": "Every organization is unique — your ERP should be too. LikhaERP is built on **collaboration, transparency, and growth**:\n\nLikhaERP redefines how ERP systems are created. Instead of forcing you to fit into a rigid template, we **co-design** your system from scratch — together. You can see your workflows, dashboards, and automations take shape in real time, without paying anything upfront. The **consultation and design phase is completely free.** You only pay once you decide to own and deploy your system.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/likha-header.png"
       },
       "components": [
         {
