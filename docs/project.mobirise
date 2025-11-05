@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "LikhaERP",
-    "currentPage": "index.html",
+    "currentPage": "security.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -1596,7 +1596,8 @@
       "settings": {
         "title": "LikhaERP Is Secured Right — Proven by Deep Independent VAPT Testing",
         "order": "1",
-        "meta_descr": "LikhaERP’s security has been independently validated through a deep Vulnerability Assessment and Penetration Testing (VAPT) conducted by DATA-PROVE. Tested under OWASP standards, our platform’s application-level resilience proves that LikhaERP is engineered — and secured — the right way."
+        "meta_descr": "LikhaERP’s security has been independently validated through a deep Vulnerability Assessment and Penetration Testing (VAPT) conducted by DATA-PROVE. Tested under OWASP standards, our platform’s application-level resilience proves that LikhaERP is engineered — and secured — the right way.",
+        "meta_image": "@PROJECT_PATH@/assets/images/chatgpt20image20nov2052020252003-10-4820pm-1536x1024.png"
       },
       "components": [
         {
