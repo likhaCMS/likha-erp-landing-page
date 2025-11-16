@@ -7041,59 +7041,6 @@ a {
 .cid-v2FQ4W9Wja .copyright {
   color: #000000;
 }
-.cid-v2G4uNg5Ut {
-  padding-top: 9rem;
-  padding-bottom: 6rem;
-  background-color: #edefeb;
-}
-.cid-v2G4uNg5Ut .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v2G4uNg5Ut .item-wrapper img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50% !important;
-}
-.cid-v2G4uNg5Ut .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v2G4uNg5Ut .item-wrapper {
-  background: #ffffff;
-  margin-bottom: 2rem;
-  padding: 2.25rem;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v2G4uNg5Ut .item-wrapper {
-    padding: 2rem 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v2G4uNg5Ut .item-wrapper {
-    padding: 2rem 1.5rem;
-    margin-bottom: 1rem;
-  }
-}
-.cid-v2G4uNg5Ut .card-title,
-.cid-v2G4uNg5Ut .iconfont-wrapper {
-  color: #000000;
-}
-.cid-v2G4uNg5Ut .card-text {
-  color: #000000;
-}
-.cid-v2G4uNg5Ut .content-head {
-  max-width: 800px;
-}
-.cid-v2G4uNg5Ut .mbr-section-title {
-  color: #000000;
-}
 .cid-v2G4uMbjKc {
   z-index: 1000;
   width: 100%;
@@ -7652,6 +7599,59 @@ a {
   .cid-v2G4uMbjKc .navbar-collapse {
     padding: 1rem;
   }
+}
+.cid-v2G4uNg5Ut {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  background-color: #edefeb;
+}
+.cid-v2G4uNg5Ut .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v2G4uNg5Ut .item-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+.cid-v2G4uNg5Ut .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v2G4uNg5Ut .item-wrapper {
+  background: #ffffff;
+  margin-bottom: 2rem;
+  padding: 2.25rem;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-v2G4uNg5Ut .item-wrapper {
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-v2G4uNg5Ut .item-wrapper {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.cid-v2G4uNg5Ut .card-title,
+.cid-v2G4uNg5Ut .iconfont-wrapper {
+  color: #000000;
+}
+.cid-v2G4uNg5Ut .card-text {
+  color: #000000;
+}
+.cid-v2G4uNg5Ut .content-head {
+  max-width: 800px;
+}
+.cid-v2G4uNg5Ut .mbr-section-title {
+  color: #000000;
 }
 .cid-v2G4uN6K9G {
   display: flex;
