@@ -2140,6 +2140,9 @@ a {
     padding: 4rem;
   }
 }
+.cid-v1m9iXwxc2 form[method="POST"].mbr-form.form-with-styler {
+  display: none !important;
+}
 .cid-v1tarweFQf {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -10087,6 +10090,9 @@ a {
   .cid-v6so022Aqd .item-wrapper {
     padding: 4rem;
   }
+}
+.cid-v6so022Aqd form[method="POST"].mbr-form.form-with-styler {
+  display: none !important;
 }
 .cid-v1tarweFQf {
   padding-top: 6rem;
