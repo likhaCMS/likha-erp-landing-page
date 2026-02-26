@@ -13284,50 +13284,74 @@ a {
   text-align: left;
   color: #000000;
 }
-.cid-vbWnO588vH {
+.cid-vciJRBjgxP {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
-.cid-vbWnO588vH .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-vbWnO588vH .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
+.cid-vciJRBjgxP img,
+.cid-vciJRBjgxP .item-img {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
+  height: 200px;
+  object-fit: cover;
 }
-@media (max-width: 991px) {
-  .cid-vbWnO588vH .image-wrapper {
+.cid-vciJRBjgxP .item:focus,
+.cid-vciJRBjgxP span:focus {
+  outline: none;
+}
+.cid-vciJRBjgxP .item {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-vciJRBjgxP .item {
     margin-bottom: 1rem;
   }
 }
-.cid-vbWnO588vH .row {
-  flex-direction: row-reverse;
+.cid-vciJRBjgxP .item-wrapper {
+  position: relative;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
 }
-.cid-vbWnO588vH .row {
-  align-items: center;
+.cid-vciJRBjgxP .item-wrapper .item-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-@media (max-width: 991px) {
-  .cid-vbWnO588vH .image-wrapper {
-    padding: 1rem;
+.cid-vciJRBjgxP .item-wrapper .item-footer {
+  margin-top: auto;
+}
+.cid-vciJRBjgxP .item-wrapper .item-content {
+  padding: 2.25rem;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-vciJRBjgxP .item-wrapper .item-content {
+    padding: 1.5rem;
   }
 }
-@media (min-width: 992px) {
-  .cid-vbWnO588vH .text-wrapper {
-    padding: 0 2rem;
+@media (max-width: 767px) {
+  .cid-vciJRBjgxP .item-wrapper .item-content {
+    padding: 1.5rem;
   }
 }
-.cid-vbWnO588vH .mbr-section-title {
-  color: #000000;
-}
-.cid-vbWnO588vH .mbr-text,
-.cid-vbWnO588vH .mbr-section-btn {
+.cid-vciJRBjgxP .mbr-section-title {
   color: #232323;
+}
+.cid-vciJRBjgxP .mbr-text,
+.cid-vciJRBjgxP .mbr-section-btn {
+  text-align: center;
+}
+.cid-vciJRBjgxP .item-title {
+  text-align: left;
+}
+.cid-vciJRBjgxP .content-head {
+  max-width: 800px;
+}
+.cid-vciJRBjgxP .mbr-text,
+.cid-vciJRBjgxP .item-wrapper .mbr-section-btn {
+  text-align: left;
 }
 .cid-vbW82xpcdK {
   padding-top: 6rem;
