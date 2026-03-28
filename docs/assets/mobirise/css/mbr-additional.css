@@ -15922,7 +15922,7 @@ a {
 }
 .cid-v1mc1FadaQ {
   display: flex;
-  background-image: url("../../../assets/images/likha-header.png");
+  background-image: url("../../../assets/images/mbr-816x544.png");
 }
 .cid-v1mc1FadaQ .mbr-overlay {
   background-color: #001715;
@@ -16115,7 +16115,7 @@ a {
 .cid-v1me5EJp4j {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #1d1d1d;
+  background-image: url("../../../assets/images/background3.jpg");
 }
 .cid-v1me5EJp4j .mbr-fallback-image.disabled {
   display: none;
@@ -16221,7 +16221,11 @@ a {
   display: flex;
   padding-top: 5rem;
   padding-bottom: 4rem;
-  background-color: #1d1d1d;
+  background-image: url("../../../assets/images/background3.jpg");
+}
+.cid-v7ZkjIUczm .mbr-overlay {
+  background-color: #000000;
+  opacity: 0.6;
 }
 @media (min-width: 768px) {
   .cid-v7ZkjIUczm {
