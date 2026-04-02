@@ -15920,6 +15920,59 @@ a {
     padding: 1rem;
   }
 }
+.cid-vfDurPsPn8 {
+  display: flex;
+  background-image: url("../../../assets/images/mbr-816x544.png");
+}
+.cid-vfDurPsPn8 .mbr-overlay {
+  background-color: #001715;
+  opacity: 0.8;
+}
+@media (min-width: 768px) {
+  .cid-vfDurPsPn8 {
+    align-items: center;
+  }
+  .cid-vfDurPsPn8 .row {
+    justify-content: center;
+  }
+  .cid-vfDurPsPn8 .content-wrap {
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-vfDurPsPn8 .content-wrap {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-vfDurPsPn8 {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-vfDurPsPn8 .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-vfDurPsPn8 .content-wrap {
+    width: 100%;
+  }
+}
+.cid-vfDurPsPn8 .mbr-section-title,
+.cid-vfDurPsPn8 .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-vfDurPsPn8 .mbr-text,
+.cid-vfDurPsPn8 .mbr-section-btn {
+  text-align: center;
+  color: #edefeb;
+}
+.cid-vfDurPsPn8 .mbr-section-title {
+  color: #edefeb;
+  text-align: center;
+}
+.cid-vfDurPsPn8 .mbr-section-subtitle {
+  color: #edefeb;
+}
 .cid-vf7Dm5sHWn {
   padding-top: 9rem;
   padding-bottom: 4rem;
@@ -16632,23 +16685,6 @@ a {
 .cid-v1sYal5Bwv .mbr-iconfont {
   color: #000000;
 }
-.cid-v2cD8YPz5X {
-  padding-top: 0rem;
-  padding-bottom: 2rem;
-  background-color: #ffffff;
-}
-.cid-v2cD8YPz5X .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v2cD8YPz5X .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
 .cid-v4hxNZaDEC {
   padding-top: 5rem;
   padding-bottom: 4rem;
@@ -16737,6 +16773,23 @@ a {
 }
 .cid-v1m9iXwxc2 form[method="POST"].mbr-form.form-with-styler {
   display: none !important;
+}
+.cid-v2cD8YPz5X {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-v2cD8YPz5X .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v2cD8YPz5X .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-v1mc1FadaQ {
   display: flex;
