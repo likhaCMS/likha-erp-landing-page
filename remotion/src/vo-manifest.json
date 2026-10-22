@@ -1,0 +1,20 @@
+{
+  "lp_hook": {
+    "durationSec": 2.232
+  },
+  "lp_forms": {
+    "durationSec": 2.52
+  },
+  "lp_roles": {
+    "durationSec": 2.64
+  },
+  "lp_flows": {
+    "durationSec": 2.736
+  },
+  "lp_dash": {
+    "durationSec": 2.64
+  },
+  "lp_cta": {
+    "durationSec": 4.248
+  }
+}

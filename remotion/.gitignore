@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Rendered videos are committed; ignore still/screenshot artifacts
+out/*.png
