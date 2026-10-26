@@ -18,9 +18,12 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-// Same voice as the DinkMatch ads (DoublesQueueMaster): AndrewNeural —
-// "Warm, Confident, Authentic". en-PH-JamesNeural is the PH-accented
-// alternative if we want a more local read (see docs/VOICE.md).
+// Default voice. For a human ad-read, prefer the Natural multilingual
+// voice via a per-line `voice` override on the LINES entry:
+//   my_line: { text: "...", voice: "en-US-AndrewMultilingualNeural" }
+// AndrewMultilingual delivers conversationally (~15% slower — the
+// vo-manifest scheduler handles spacing, just verify last-line fit).
+// en-PH-JamesNeural is the PH-accented alternative (see docs/VOICE.md).
 const VOICE = "en-US-AndrewNeural";
 const RATE = "+8%";
 const OUT = join(dirname(fileURLToPath(import.meta.url)), "../public/vo");
@@ -71,13 +74,14 @@ for (const [name, line] of Object.entries(LINES)) {
   const file = join(OUT, `${name}.mp3`);
   const text = typeof line === "string" ? line : line.text;
   const rate = typeof line === "string" ? RATE : (line.rate ?? RATE);
+  const voice = typeof line === "string" ? VOICE : (line.voice ?? VOICE);
   execFileSync(
     "python",
     [
       "-m",
       "edge_tts",
       "--voice",
-      VOICE,
+      voice,
       `--rate=${rate}`,
       "--text",
       text,
